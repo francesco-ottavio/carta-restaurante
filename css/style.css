@@ -1,22 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width: 960px;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 header{
     border-bottom: 1px solid black;
-    padding: 20px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+header h2{
+    margin: 0;
 }
 
 .conteudo{
     display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 aside{
     width: 300px;
 }
 
+aside nav ul{
+    margin: 0;
+}
+
+aside nav ul li{
+    list-style: none;
+}
+
+aside nav ul li a{
+    text-decoration: none;
+    line-height: 2;
+    color: black;
+}
+
+
 main{
-    width: 610px;
+    width: 659px;
     border-left: 1px solid black;
     display: flex;
     justify-content: space-between;
@@ -40,10 +69,45 @@ footer img{
 div.contatos{
     display: flex;
     flex-direction: column;
-    text-align: right;    
+    text-align: right;
+    padding-right: 20px;    
 }
 
 .titulo-contato{
     padding: 15px 0;
 }
 
+.menu-descricao{
+    padding: 0 10px 0 35px;
+}
+
+.foto-prato{
+    padding-top: 60px;
+}
+
+.foto-prato img{
+    border: 2px solid #d8d8d8;
+}
+
+main h3.subtitulo{
+    margin-top: 0;
+}
+
+main h4.nome-prato{
+    margin-bottom: 5px;
+}
+main p.texto-prato{
+    margin-top: 5px;
+}
+
+div.contatos a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;    
+}
+
+section div h4 a{
+    text-decoration: none;
+    color: black;
+}
